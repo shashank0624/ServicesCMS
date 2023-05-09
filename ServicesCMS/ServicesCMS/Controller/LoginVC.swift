@@ -20,7 +20,9 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func SignInBtnPressed(_ sender: UIButton) {
-        
+        if let dashboardVC = StoryBoards.getStoryboard(for: StoryBoards.mainStoryboardId).instantiateViewController(withIdentifier: DashboardVC.storyboardId) as? DashboardVC{
+            navigationController?.pushViewController(dashboardVC, animated: true)
+        }
     }
     
 

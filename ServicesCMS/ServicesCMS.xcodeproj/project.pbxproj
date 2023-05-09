@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7795DE8F2A040F75001B02D6 /* MonthsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795DE8E2A040F75001B02D6 /* MonthsCollectionViewCell.swift */; };
+		7795DE912A040F89001B02D6 /* MonthsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7795DE902A040F89001B02D6 /* MonthsCollectionViewCell.xib */; };
+		7795DE942A0420FE001B02D6 /* CustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795DE922A0420FE001B02D6 /* CustomerCell.swift */; };
+		7795DE952A0420FE001B02D6 /* CustomerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7795DE932A0420FE001B02D6 /* CustomerCell.xib */; };
+		7795DE982A04BD1A001B02D6 /* CustomerCallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795DE962A04BD1A001B02D6 /* CustomerCallCell.swift */; };
+		7795DE992A04BD1A001B02D6 /* CustomerCallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7795DE972A04BD1A001B02D6 /* CustomerCallCell.xib */; };
+		7795DE9B2A0620B5001B02D6 /* CustomAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795DE9A2A0620B5001B02D6 /* CustomAppButton.swift */; };
+		77A5533D2A00280200963B95 /* CreateNewCallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A5533C2A00280200963B95 /* CreateNewCallVC.swift */; };
+		77A5533F2A021B4C00963B95 /* CallDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A5533E2A021B4C00963B95 /* CallDetailsVC.swift */; };
+		77C2841D29FFA2B7007B437F /* CustomerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C2841C29FFA2B7007B437F /* CustomerDetailsVC.swift */; };
 		77DB454E29FCDA1700CB3F4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB454D29FCDA1700CB3F4C /* AppDelegate.swift */; };
 		77DB455029FCDA1700CB3F4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB454F29FCDA1700CB3F4C /* SceneDelegate.swift */; };
 		77DB455229FCDA1700CB3F4C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB455129FCDA1700CB3F4C /* LoginVC.swift */; };
@@ -14,9 +24,26 @@
 		77DB455729FCDA1A00CB3F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77DB455629FCDA1A00CB3F4C /* Assets.xcassets */; };
 		77DB455A29FCDA1A00CB3F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DB455829FCDA1A00CB3F4C /* LaunchScreen.storyboard */; };
 		77DB456729FCE4B600CB3F4C /* Authenticate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DB456629FCE4B600CB3F4C /* Authenticate.storyboard */; };
+		77DB456929FCF32700CB3F4C /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB456829FCF32700CB3F4C /* DashboardVC.swift */; };
+		77DB456C29FCF3CC00CB3F4C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB456B29FCF3CC00CB3F4C /* Constants.swift */; };
+		77DB456F29FD01BA00CB3F4C /* RoundCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB456E29FD01BA00CB3F4C /* RoundCornerView.swift */; };
+		77DB457129FD3F4900CB3F4C /* CustomersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB457029FD3F4900CB3F4C /* CustomersVC.swift */; };
+		77DB457329FD531100CB3F4C /* AddCustomerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB457229FD531100CB3F4C /* AddCustomerVC.swift */; };
+		77EC59CC2A02583600119661 /* CallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EC59CA2A02583600119661 /* CallCell.swift */; };
+		77EC59CD2A02583600119661 /* CallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77EC59CB2A02583600119661 /* CallCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7795DE8E2A040F75001B02D6 /* MonthsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthsCollectionViewCell.swift; sourceTree = "<group>"; };
+		7795DE902A040F89001B02D6 /* MonthsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthsCollectionViewCell.xib; sourceTree = "<group>"; };
+		7795DE922A0420FE001B02D6 /* CustomerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCell.swift; sourceTree = "<group>"; };
+		7795DE932A0420FE001B02D6 /* CustomerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomerCell.xib; sourceTree = "<group>"; };
+		7795DE962A04BD1A001B02D6 /* CustomerCallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCallCell.swift; sourceTree = "<group>"; };
+		7795DE972A04BD1A001B02D6 /* CustomerCallCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomerCallCell.xib; sourceTree = "<group>"; };
+		7795DE9A2A0620B5001B02D6 /* CustomAppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAppButton.swift; sourceTree = "<group>"; };
+		77A5533C2A00280200963B95 /* CreateNewCallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewCallVC.swift; sourceTree = "<group>"; };
+		77A5533E2A021B4C00963B95 /* CallDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDetailsVC.swift; sourceTree = "<group>"; };
+		77C2841C29FFA2B7007B437F /* CustomerDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetailsVC.swift; sourceTree = "<group>"; };
 		77DB454A29FCDA1700CB3F4C /* ServicesCMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServicesCMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77DB454D29FCDA1700CB3F4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77DB454F29FCDA1700CB3F4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +53,13 @@
 		77DB455929FCDA1A00CB3F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77DB455B29FCDA1A00CB3F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77DB456629FCE4B600CB3F4C /* Authenticate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authenticate.storyboard; sourceTree = "<group>"; };
+		77DB456829FCF32700CB3F4C /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		77DB456B29FCF3CC00CB3F4C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		77DB456E29FD01BA00CB3F4C /* RoundCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornerView.swift; sourceTree = "<group>"; };
+		77DB457029FD3F4900CB3F4C /* CustomersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersVC.swift; sourceTree = "<group>"; };
+		77DB457229FD531100CB3F4C /* AddCustomerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomerVC.swift; sourceTree = "<group>"; };
+		77EC59CA2A02583600119661 /* CallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCell.swift; sourceTree = "<group>"; };
+		77EC59CB2A02583600119661 /* CallCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,8 @@
 		77DB454C29FCDA1700CB3F4C /* ServicesCMS */ = {
 			isa = PBXGroup;
 			children = (
+				77DB456D29FD019300CB3F4C /* Views */,
+				77DB456A29FCF37D00CB3F4C /* Constants */,
 				77DB456529FCDD8100CB3F4C /* Storyboard */,
 				77DB456429FCDD7300CB3F4C /* Controller */,
 				77DB456329FCDD6600CB3F4C /* Resources */,
@@ -96,6 +132,12 @@
 			isa = PBXGroup;
 			children = (
 				77DB455129FCDA1700CB3F4C /* LoginVC.swift */,
+				77DB456829FCF32700CB3F4C /* DashboardVC.swift */,
+				77DB457029FD3F4900CB3F4C /* CustomersVC.swift */,
+				77DB457229FD531100CB3F4C /* AddCustomerVC.swift */,
+				77C2841C29FFA2B7007B437F /* CustomerDetailsVC.swift */,
+				77A5533C2A00280200963B95 /* CreateNewCallVC.swift */,
+				77A5533E2A021B4C00963B95 /* CallDetailsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -108,6 +150,47 @@
 				77DB456629FCE4B600CB3F4C /* Authenticate.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		77DB456A29FCF37D00CB3F4C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				77DB456B29FCF3CC00CB3F4C /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		77DB456D29FD019300CB3F4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77EC59C92A0257A200119661 /* TableViewCells */,
+				77DB456E29FD01BA00CB3F4C /* RoundCornerView.swift */,
+				77EC59D22A040F0A00119661 /* CollectionViewCells */,
+				7795DE9A2A0620B5001B02D6 /* CustomAppButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77EC59C92A0257A200119661 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				77EC59CA2A02583600119661 /* CallCell.swift */,
+				77EC59CB2A02583600119661 /* CallCell.xib */,
+				7795DE922A0420FE001B02D6 /* CustomerCell.swift */,
+				7795DE932A0420FE001B02D6 /* CustomerCell.xib */,
+				7795DE962A04BD1A001B02D6 /* CustomerCallCell.swift */,
+				7795DE972A04BD1A001B02D6 /* CustomerCallCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		77EC59D22A040F0A00119661 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				7795DE902A040F89001B02D6 /* MonthsCollectionViewCell.xib */,
+				7795DE8E2A040F75001B02D6 /* MonthsCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,9 +252,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				77DB455A29FCDA1A00CB3F4C /* LaunchScreen.storyboard in Resources */,
+				7795DE952A0420FE001B02D6 /* CustomerCell.xib in Resources */,
+				7795DE912A040F89001B02D6 /* MonthsCollectionViewCell.xib in Resources */,
+				7795DE992A04BD1A001B02D6 /* CustomerCallCell.xib in Resources */,
 				77DB456729FCE4B600CB3F4C /* Authenticate.storyboard in Resources */,
 				77DB455729FCDA1A00CB3F4C /* Assets.xcassets in Resources */,
 				77DB455529FCDA1700CB3F4C /* Main.storyboard in Resources */,
+				77EC59CD2A02583600119661 /* CallCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +269,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DB457129FD3F4900CB3F4C /* CustomersVC.swift in Sources */,
+				77EC59CC2A02583600119661 /* CallCell.swift in Sources */,
+				77C2841D29FFA2B7007B437F /* CustomerDetailsVC.swift in Sources */,
+				77A5533F2A021B4C00963B95 /* CallDetailsVC.swift in Sources */,
+				7795DE9B2A0620B5001B02D6 /* CustomAppButton.swift in Sources */,
+				77DB456F29FD01BA00CB3F4C /* RoundCornerView.swift in Sources */,
+				77DB457329FD531100CB3F4C /* AddCustomerVC.swift in Sources */,
+				77DB456C29FCF3CC00CB3F4C /* Constants.swift in Sources */,
+				77A5533D2A00280200963B95 /* CreateNewCallVC.swift in Sources */,
+				7795DE982A04BD1A001B02D6 /* CustomerCallCell.swift in Sources */,
 				77DB455229FCDA1700CB3F4C /* LoginVC.swift in Sources */,
+				7795DE8F2A040F75001B02D6 /* MonthsCollectionViewCell.swift in Sources */,
+				77DB456929FCF32700CB3F4C /* DashboardVC.swift in Sources */,
+				7795DE942A0420FE001B02D6 /* CustomerCell.swift in Sources */,
 				77DB454E29FCDA1700CB3F4C /* AppDelegate.swift in Sources */,
 				77DB455029FCDA1700CB3F4C /* SceneDelegate.swift in Sources */,
 			);
